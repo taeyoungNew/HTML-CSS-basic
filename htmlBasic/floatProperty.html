@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>가로배치 float</title>
+  <link rel="stylesheet" href="../cssBasic/floatProperty.css">
+</head>
+<body>
+  <div class="parent">
+    <!-- 
+      부모요소는 자식요소의 높이값이 자동으로 적용된다.
+      하지만 float요소를 자식이 가지면 부모요소에 자식요소의 높이값이 적용되지 않는다.
+      해결법
+      1) 자식요소와 같은 높이값을 직접 적용 시키기: height -> 일일이 적용시켜야 하기때문에 번거로움
+      2) overflow요소로 hidden값을 주기
+    -->
+    <!-- 블록요소만 margin: auto가 가능하다 inline, inline-block은 안됨 -->
+    <span class="child">하이</span>
+  </div>
+</body>
+</html>

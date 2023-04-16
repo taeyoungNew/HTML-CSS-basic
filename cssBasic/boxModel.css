@@ -1,0 +1,7 @@
+.heading {
+  border: 1px solid red;
+  width: 300px;
+  text-align: center;
+  margin: 100px 50px;
+  /* padding: 100px; */
+}

@@ -1,0 +1,19 @@
+.parent {
+  border: 1px solid red;
+  width: 600px;
+  height: 200px;
+  
+}
+.parent > div {
+  border: 1px solid blue;
+  width: 200px;
+  height: 100px;
+  
+}
+
+/* 자식밑에 있는 자손 선택자 */
+.parent > div > div {
+  border: 1px solid plum;
+  width: 50px;
+  height: 25px;
+}

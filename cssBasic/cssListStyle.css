@@ -1,0 +1,13 @@
+ol.menu {
+  list-style: circle;
+}
+
+.menu2 {
+  list-style: none;
+  padding: 0;
+  
+}
+
+.menu2 li::before {
+  content: '★'
+}

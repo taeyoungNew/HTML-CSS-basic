@@ -1,0 +1,14 @@
+.box {
+  border: 1px solid red;
+  width: 600px;
+
+}
+.box div {
+  border: 1px solid blue;
+  /* padding: 10px; */
+  width: 200px;
+  height: 200px;
+  float: left;
+  /* 최초에 정한 width height이상으로 확장하지 말라는 명령어 */
+  box-sizing: border-box;
+}

@@ -1,0 +1,52 @@
+.box {
+  padding: 10px;
+  /* display: flex; */
+}
+.box > div {
+  float: left;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: dodgerblue;
+  border: 10px solid orange;
+  text-align: center;
+  /* top: 50%; */
+  /* justify-content: end; */
+  /* margin: 0px; */
+}
+
+.box > .box1 {
+  border-radius: 10px;
+}
+
+.box > .box2 {
+  border-radius: 25px;
+}
+
+.box > .box3 {
+  border-radius: 100%;
+}
+
+.box > .box4 {
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+.box > .box5 {
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.box > .box6 {
+  border-top-left-radius: 100%;
+}
+
+.box > .box7 {
+  border-radius: 70%;
+  border-bottom-left-radius: 0px;
+}
+
+.box > .box8 {
+  border-top-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+}

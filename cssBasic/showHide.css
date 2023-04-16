@@ -1,0 +1,21 @@
+a {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+  background-color: #ddd;
+  width: 100px;
+  padding: 5px;
+  text-align: center;
+}
+.showHide {
+  width: 120px;
+}
+
+div {
+  background-color: dodgerblue;
+  height: 200px;
+  width: 223px;
+  margin-top: 10px;
+  text-align: center;
+  line-height: 223px;
+}

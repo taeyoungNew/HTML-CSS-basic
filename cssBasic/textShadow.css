@@ -1,0 +1,10 @@
+body {
+  background-color: #333;
+}
+.heading {
+  font-size: 70px;
+  text-transform: uppercase;
+  color: gold;
+  /* text-shadow: 5px 5px 20px #fff; */
+  text-shadow: 5px 5px 0 dodgerblue, 10px 10px 0 rgb(75, 160, 245);
+}

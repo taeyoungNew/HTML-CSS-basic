@@ -1,0 +1,20 @@
+body {
+
+}
+a {
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  color:#333;
+  text-decoration: none;
+  width: 120px;
+  display: inline-block;
+  text-align: center;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: white;
+  background-color: black;
+  /* 0.5초동안 hover의 디자인으로 바뀌라는 코드 */
+}

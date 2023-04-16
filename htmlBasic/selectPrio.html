@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=`, initial-scale=1.0">
+  <title>CSS 선택자, 적용 우선순위</title>
+  <style>
+    /** 그룹선택자 */
+    h1, p{
+      text-align: center;
+      color: blue;
+    }
+    
+    p.center {
+      color:blue;
+    }
+    p#center {
+      color: red;
+    }
+    #divBox {
+      color: black;
+    }
+    p b {
+      color: red
+    }
+  </style>
+</head>
+<body>
+  <p>사과</p>
+  <p class="center">배</p>
+  <p id="center">키위</p>
+  <p>복숭아</p>
+  <div class="divBox">안녕하세요.</div>
+  <h1>황금시대</h1>
+  <p>유소년<b>굵은 글씨</b></p>
+</body>
+</html>
